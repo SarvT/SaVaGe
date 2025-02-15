@@ -11,6 +11,20 @@ const inter = Inter({ subsets: ["latin"] })
 export const metadata: Metadata = {
   title: "SVG Wizard - Interactive SVG Editor",
   description: "Create, edit, and animate SVGs with ease using our interactive editor.",
+  icons:{
+    icon:[
+      {
+        media: '(prefers-color-scheme: light)',
+        url: '/images/icon.svg',
+        href: '/images/icon.svg',
+      },
+      {
+        media: '(prefers-color-scheme: dark)',
+        url: '/images/icon.svg',
+        href: '/images/icon.svg',
+      }
+    ]
+  }
 }
 
 export default function RootLayout({
